@@ -447,4 +447,190 @@ Decision
         ↓
 Continuous Improvement
 ```
+# Repository Structure
 
+The project is organized into independent modules to separate data collection, analytical processing, visualization, documentation, and reporting.
+
+```text
+QMDSS/
+│
+├── README.md
+│
+├── docs/
+│   ├── methodology.md
+│   ├── workflow.md
+│   ├── dashboard-guide.md
+│   └── screenshots/
+│
+├── questionnaire/
+│   ├── mdi-questionnaire.pdf
+│   ├── porsline-template.pdf
+│   └── questionnaire-structure.xlsx
+│
+├── sample-data/
+│   ├── raw-responses.xlsx
+│   ├── processed-data.xlsx
+│   └── anonymized-dataset.xlsx
+│
+├── excel-engine/
+│   ├── scoring-engine.xlsx
+│   ├── capability-analysis.xlsx
+│   ├── similarity-analysis.xlsx
+│   └── organization-level.xlsx
+│
+├── powerbi/
+│   ├── QMDSS.pbix
+│   ├── data-model.png
+│   └── dashboard-preview.png
+│
+├── reports/
+│   ├── executive-report.pdf
+│   ├── capability-report.pdf
+│   └── improvement-priorities.pdf
+│
+├── images/
+│   ├── architecture.png
+│   ├── workflow.png
+│   ├── dashboard.png
+│   └── screenshots/
+│
+└── references/
+    ├── bibliography.md
+    └── citations.bib
+```
+
+---
+
+# Project Modules
+
+The repository consists of several independent modules, each responsible for a specific stage of the assessment process.
+
+| Module | Purpose |
+|----------|---------|
+| questionnaire | Assessment design and survey structure |
+| sample-data | Example assessment data (anonymized) |
+| excel-engine | Scoring calculations and analytical models |
+| powerbi | Dashboard and visualization |
+| reports | Executive reporting |
+| docs | Technical documentation |
+| images | Repository figures and screenshots |
+| references | Scientific references |
+
+---
+
+# Folder Description
+
+## docs/
+
+Contains the complete project documentation, workflow explanation, methodology overview, and dashboard guide.
+
+---
+
+## questionnaire/
+
+Contains the assessment questionnaire and supporting documents used to collect organizational responses.
+
+The questionnaire is derived from the MDI framework described in the referenced publication.
+
+---
+
+## sample-data/
+
+Contains anonymized demonstration datasets.
+
+These files are provided exclusively for educational and demonstration purposes.
+
+No confidential organizational information is included.
+
+---
+
+## excel-engine/
+
+This folder contains the analytical core of the project.
+
+The Excel Scoring Engine performs:
+
+- Data validation
+- Weighted scoring
+- Capability calculations
+- Organization maturity calculations
+- Similarity calculations
+
+This module transforms raw questionnaire responses into structured analytical outputs.
+
+---
+
+## powerbi/
+
+Contains the Power BI report used for executive visualization.
+
+The dashboard provides an interactive view of:
+
+- Overall Maturity
+- Capability Analysis
+- Organization Profile
+- Similarity Analysis
+- Executive KPIs
+- Improvement Priorities
+
+---
+
+## reports/
+
+Contains executive reports generated from the processed assessment data.
+
+Typical outputs include:
+
+- Executive Summary
+- Organizational Strengths
+- Capability Gaps
+- Recommended Improvement Priorities
+
+---
+
+## images/
+
+Repository images used throughout the documentation.
+
+These include:
+
+- Dashboard screenshots
+- Workflow diagrams
+- Architecture diagrams
+- Illustrations
+
+---
+
+## references/
+
+Contains scientific references supporting the methodology implemented in this project.
+
+The implementation follows published research and does not replace the original scientific work.
+
+---
+
+# Confidentiality
+
+This repository includes a demonstration project based on a real organizational assessment.
+
+To protect organizational confidentiality:
+
+- Company names have been removed.
+- Participant identities have been anonymized.
+- Sensitive operational information has been excluded.
+- The published dataset is intended solely to demonstrate the analytical workflow.
+
+---
+
+# Design Principles
+
+The repository has been designed according to the following principles:
+
+- Modularity
+- Reproducibility
+- Transparency
+- Scientific Traceability
+- Executive Usability
+- Confidentiality
+
+Each module can be updated independently without affecting the overall analytical workflow.
