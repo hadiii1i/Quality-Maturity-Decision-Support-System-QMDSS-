@@ -861,3 +861,200 @@ For the most reliable results:
 - Repeat assessments periodically to measure organizational progress.
 
 Following these practices improves reliability, minimizes subjective bias, and enables meaningful comparison over time.
+# Analytics Engine
+
+The QMDSS analytical engine transforms raw assessment responses into executive-level insights through a structured multi-stage analysis process.
+
+Instead of reporting questionnaire responses directly, the system applies a sequence of analytical models that convert organizational data into actionable management information.
+
+---
+
+# Analytical Pipeline
+
+```text
+Raw Responses
+      │
+      ▼
+Data Validation
+      │
+      ▼
+Weighted Scoring
+      │
+      ▼
+Capability Analysis
+      │
+      ▼
+Organization Level Analysis
+      │
+      ▼
+Similarity Analysis
+      │
+      ▼
+Executive KPIs
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Management Report
+```
+
+---
+
+# Stage 1 — Data Validation
+
+Before any calculations are performed, the assessment dataset is validated.
+
+Validation includes:
+
+- Missing responses
+- Invalid values
+- Duplicate records
+- Response consistency
+- Dataset completeness
+
+The objective is to ensure that only reliable assessment data enters the analytical process.
+
+---
+
+# Stage 2 — Weighted Scoring
+
+Assessment responses are processed according to the MDI scoring methodology.
+
+The scoring engine automatically converts questionnaire responses into weighted values required for organizational maturity calculations.
+
+This process eliminates manual calculations and ensures scoring consistency across all assessments.
+
+---
+
+# Stage 3 — Capability Analysis
+
+Capability Analysis evaluates the organization's performance across the major Quality Management capabilities.
+
+The analysis identifies strengths, weaknesses, and improvement opportunities for each capability.
+
+Example capability dimensions include:
+
+- Leadership
+- Strategy
+- Customer Focus
+- Quality Management System
+- Continuous Improvement
+- Process Management
+- Organizational Culture
+- People Development
+- Quality Methods
+
+Capability Analysis enables management to identify which organizational capabilities require immediate attention.
+
+---
+
+# Stage 4 — Organization Level Analysis
+
+The weighted capability scores are aggregated to determine the organization's overall maturity level.
+
+Rather than evaluating isolated departments, this analysis provides a holistic view of organizational maturity.
+
+The resulting maturity score serves as the primary executive KPI used throughout the dashboard.
+
+---
+
+# Stage 5 — Similarity Analysis
+
+The Similarity Analysis compares the organization's maturity profile against the six maturity levels defined in the MDI methodology.
+
+The analysis determines which maturity profile most closely represents the organization's current state.
+
+Possible maturity profiles include:
+
+- Uncommitted
+- Drifters
+- Tool Pushers
+- Improvers
+- Award Winners
+- World-Class
+
+This comparison provides management with a practical benchmark for understanding organizational maturity.
+
+---
+
+# Stage 6 — Executive KPI Generation
+
+After all analytical calculations have been completed, the system generates executive-level performance indicators.
+
+Key indicators include:
+
+- Overall Maturity Score
+- Current Maturity Profile
+- Similarity Score
+- Highest Organizational Risk
+- Critical Capability
+- Priority Improvement Areas
+
+These KPIs provide management with a concise summary of organizational performance.
+
+---
+
+# Stage 7 — Power BI Visualization
+
+The processed dataset is imported into Power BI for interactive visualization.
+
+The dashboard presents:
+
+- Executive KPI Cards
+- Capability Analysis
+- Organization Maturity Profile
+- Similarity Analysis
+- Capability Ranking
+- Strengths and Weaknesses
+- Improvement Priorities
+
+The dashboard is designed for executive review rather than operational reporting.
+
+---
+
+# Stage 8 — Executive Report
+
+The final output of the analytical engine is an Executive Management Report.
+
+The report summarizes:
+
+- Current organizational maturity
+- Capability strengths
+- Capability gaps
+- Highest organizational risks
+- Recommended improvement priorities
+- Executive insights
+
+The objective is to support evidence-based management decisions rather than simply presenting analytical results.
+
+---
+
+# Executive Decision Support
+
+Unlike traditional dashboards, QMDSS focuses on supporting management decisions.
+
+The analytical workflow answers four executive questions:
+
+1. Where are we today?
+2. What are our biggest capability gaps?
+3. Which maturity profile best represents our organization?
+4. What should we improve first?
+
+By answering these questions, the system enables organizations to prioritize improvement initiatives based on organizational readiness instead of assumptions.
+
+---
+
+# Business Value
+
+The analytical engine provides measurable business value by helping organizations:
+
+- Understand current Quality Maturity
+- Reduce subjectivity in organizational assessment
+- Identify critical capability gaps
+- Prioritize improvement initiatives
+- Support strategic planning
+- Monitor progress through periodic reassessment
+- Improve executive decision-making
+
+The ultimate objective is to transform organizational assessment data into actionable business intelligence.
