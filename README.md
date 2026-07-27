@@ -634,3 +634,230 @@ The repository has been designed according to the following principles:
 - Confidentiality
 
 Each module can be updated independently without affecting the overall analytical workflow.
+# Implementation Guide
+
+This section describes the recommended implementation workflow for applying the Quality Maturity Decision Support System (QMDSS) within an organization.
+
+The workflow follows the principles of the Maturity Diagnostic Instrument (MDI) while extending the methodology through automated scoring, analytics, visualization, and executive reporting.
+
+---
+
+# Implementation Workflow
+
+The implementation consists of eight sequential stages.
+
+```text
+Planning
+      ↓
+Assessment Team
+      ↓
+Questionnaire
+      ↓
+Data Collection
+      ↓
+Scoring Engine
+      ↓
+Data Analytics
+      ↓
+Executive Dashboard
+      ↓
+Management Decisions
+```
+
+---
+
+# Step 1 — Prepare the Assessment
+
+Before conducting the assessment, management should define the scope of the evaluation.
+
+Typical assessment objectives include:
+
+- Understanding current Quality Maturity
+- Identifying organizational capability gaps
+- Supporting strategic planning
+- Prioritizing improvement initiatives
+
+The assessment should represent the organization as a whole rather than evaluating a single department.
+
+---
+
+# Step 2 — Form the Assessment Team
+
+According to the MDI methodology, the assessment should be completed by a multidisciplinary team.
+
+Recommended participants include:
+
+- Executive Management
+- Middle Management
+- Quality
+- Production
+- Materials
+- Human Resources
+- Supervisors
+- Shop-floor Operators
+
+Recommended team size:
+
+> Approximately **six participants** representing different organizational functions.
+
+Using the same team during future assessments improves consistency and reduces subjective variation.
+
+---
+
+# Step 3 — Complete the Assessment
+
+Participants complete the MDI questionnaire individually.
+
+The assessment contains:
+
+- 84 assessment indicators
+- 7-point Likert scale
+- Organizational capability evaluation
+
+Each participant should answer independently based on current organizational practices rather than desired future conditions.
+
+---
+
+# Step 4 — Export Assessment Data
+
+After the assessment is completed, export all responses from the survey platform.
+
+Supported format:
+
+- Microsoft Excel (.xlsx)
+
+The exported dataset becomes the input for the analytical workflow.
+
+---
+
+# Step 5 — Import into the Scoring Engine
+
+Load the exported assessment file into the Excel Scoring Engine.
+
+The scoring engine automatically performs:
+
+- Response validation
+- Missing value detection
+- Weighted score calculation
+- Capability aggregation
+- Organizational maturity calculation
+- Similarity calculation
+
+No manual calculations are required.
+
+---
+
+# Step 6 — Generate Analytical Results
+
+After processing the assessment data, the system automatically generates analytical outputs including:
+
+## Overall Maturity
+
+Represents the current maturity level of the organization.
+
+---
+
+## Capability Analysis
+
+Identifies strengths and weaknesses across organizational capabilities.
+
+---
+
+## Organization Level Analysis
+
+Determines the organization's maturity profile.
+
+---
+
+## Similarity Analysis
+
+Compares organizational results against the six maturity profiles defined in the MDI methodology.
+
+The profile with the highest similarity score represents the organization's current maturity classification.
+
+---
+
+# Step 7 — Load Data into Power BI
+
+Import the processed analytical dataset into Power BI.
+
+The dashboard automatically visualizes:
+
+- Overall Maturity
+- Current Maturity Profile
+- Capability Analysis
+- Similarity Score
+- Organizational Strengths
+- Organizational Weaknesses
+- Executive KPIs
+- Improvement Priorities
+
+The dashboard is designed specifically for executive decision support.
+
+---
+
+# Step 8 — Executive Review
+
+The final deliverable is an Executive Management Report.
+
+The report summarizes:
+
+- Current organizational maturity
+- Capability strengths
+- Critical weaknesses
+- Highest-risk capabilities
+- Improvement priorities
+- Strategic recommendations
+
+Management should use these findings to prioritize improvement initiatives based on organizational readiness rather than intuition.
+
+---
+
+# Assessment Frequency
+
+Although assessment frequency depends on organizational objectives, periodic reassessment is recommended to monitor progress over time.
+
+Using the same assessment methodology and a consistent multidisciplinary team improves comparability between assessment cycles.
+
+---
+
+# Expected Deliverables
+
+At the end of each assessment cycle, the following deliverables are produced:
+
+- Completed Assessment Dataset
+- Weighted Scoring Results
+- Capability Analysis
+- Organization Level Analysis
+- Similarity Analysis
+- Executive Power BI Dashboard
+- Executive Management Report
+
+---
+
+# Demonstration Case
+
+This repository includes one demonstration project created from a real organizational assessment.
+
+To protect confidentiality:
+
+- Company names have been removed.
+- Individual identities have been anonymized.
+- Sensitive organizational information has been excluded.
+
+The published example is intended solely to demonstrate the implementation workflow and analytical capabilities of the system.
+
+---
+
+# Best Practices
+
+For the most reliable results:
+
+- Form a multidisciplinary assessment team.
+- Encourage honest and independent responses.
+- Avoid completing the questionnaire as a group discussion.
+- Preserve the original response dataset.
+- Use consistent assessment criteria across evaluation cycles.
+- Repeat assessments periodically to measure organizational progress.
+
+Following these practices improves reliability, minimizes subjective bias, and enables meaningful comparison over time.
