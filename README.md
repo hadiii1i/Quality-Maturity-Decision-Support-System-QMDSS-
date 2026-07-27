@@ -1058,3 +1058,193 @@ The analytical engine provides measurable business value by helping organization
 - Improve executive decision-making
 
 The ultimate objective is to transform organizational assessment data into actionable business intelligence.
+# Dashboard & Executive Outputs
+
+The final deliverable of QMDSS is not a spreadsheet or a collection of charts.
+
+The primary objective of the system is to provide management with actionable insights through an Executive Dashboard and a Management Report.
+
+Rather than presenting raw assessment data, the dashboard summarizes organizational maturity into clear business indicators that support executive decision-making.
+
+---
+
+# Executive Dashboard
+
+The Power BI dashboard has been designed specifically for executives, quality managers, and continuous improvement leaders.
+
+Its purpose is to answer critical management questions in less than one minute.
+
+The dashboard focuses on four key questions:
+
+1. Where are we today?
+2. What are our biggest organizational weaknesses?
+3. Which maturity profile best represents our organization?
+4. What should management improve first?
+
+---
+
+# Executive KPI Cards
+
+The first section of the dashboard provides a high-level executive summary.
+
+## Overall Maturity
+
+Displays the overall Quality Management maturity score of the organization.
+
+This KPI represents the current maturity status calculated from the complete assessment.
+
+---
+
+## Current Maturity Profile
+
+Identifies the maturity profile that most closely matches the organization's assessment.
+
+Possible profiles include:
+
+- Uncommitted
+- Drifters
+- Tool Pushers
+- Improvers
+- Award Winners
+- World-Class
+
+---
+
+## Greatest Organizational Risk
+
+Highlights the capability with the lowest performance score.
+
+This KPI helps management immediately identify the organization's most critical weakness.
+
+---
+
+## Improvement Opportunity
+
+Displays the capability that should receive the highest improvement priority based on the assessment results.
+
+This KPI supports evidence-based prioritization of improvement initiatives.
+
+---
+
+# Capability Analysis
+
+Capability Analysis provides a detailed evaluation of organizational performance across the Quality Management capabilities.
+
+Each capability is analyzed individually, allowing management to distinguish between organizational strengths and weaknesses.
+
+Typical capabilities include:
+
+- Leadership
+- Strategy
+- Customer Focus
+- Quality Management System
+- Process Management
+- Organizational Culture
+- Continuous Improvement
+- People Development
+- Quality Methods
+
+The analysis enables management to allocate resources where they create the greatest organizational impact.
+
+---
+
+# Organization Level Analysis
+
+This analysis determines the overall maturity level of the organization.
+
+Instead of evaluating isolated departments, it provides a comprehensive organizational perspective.
+
+The result serves as the primary maturity indicator used throughout the dashboard.
+
+---
+
+# Similarity Analysis
+
+Similarity Analysis compares the organization's maturity profile with the six maturity levels defined by the MDI framework.
+
+The analysis identifies the maturity profile that most closely represents the organization.
+
+This provides an intuitive benchmark for executive management.
+
+---
+
+# Executive Insights
+
+The dashboard automatically summarizes the analytical findings into concise executive insights.
+
+Typical insights include:
+
+- Current organizational maturity
+- Strongest organizational capabilities
+- Critical capability gaps
+- Highest-risk areas
+- Improvement priorities
+
+These insights enable management to understand assessment results without interpreting detailed analytical tables.
+
+---
+
+# Management Report
+
+In addition to the interactive dashboard, the system produces an Executive Management Report.
+
+The report consolidates the assessment findings into a structured document suitable for management review.
+
+The report typically includes:
+
+- Executive Summary
+- Overall Maturity
+- Current Maturity Profile
+- Capability Assessment
+- Organizational Strengths
+- Organizational Weaknesses
+- Improvement Priorities
+- Strategic Recommendations
+
+The report is intended to support management meetings, strategic planning, and continuous improvement initiatives.
+
+---
+
+# Example Dashboard
+
+The dashboard presented in this repository is based on a real organizational assessment.
+
+To protect confidentiality:
+
+- Company names have been removed.
+- Participant identities have been anonymized.
+- Sensitive organizational information has been excluded.
+
+The published dashboard is provided solely to demonstrate the analytical capabilities of the system.
+
+---
+
+# Intended Audience
+
+The dashboard is designed for decision-makers rather than analysts.
+
+Typical users include:
+
+- Chief Executive Officers (CEO)
+- Operations Managers
+- Quality Managers
+- Continuous Improvement Managers
+- Plant Managers
+- Operational Excellence Leaders
+
+The objective is to simplify complex analytical results into information that supports faster and more confident business decisions.
+
+---
+
+# Design Principles
+
+The dashboard was designed according to the following principles:
+
+- Executive-first design
+- Minimal cognitive load
+- Business-focused KPIs
+- Evidence-based insights
+- Interactive exploration
+- Clear improvement priorities
+
+Every visual element exists to support management decisions rather than simply display data.
