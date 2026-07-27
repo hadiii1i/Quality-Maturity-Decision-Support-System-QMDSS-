@@ -223,4 +223,228 @@ Assessment responses are subsequently processed through the analytical workflow 
 The scientific methodology belongs to the original authors.
 
 This repository focuses on implementing the complete analytical workflow, including data processing, weighted scoring, capability analysis, similarity analysis, executive visualization, and management reporting.
+# System Architecture
+
+The **Quality Maturity Decision Support System (QMDSS)** follows a structured end-to-end analytical workflow that transforms organizational assessment responses into executive-level decision support.
+
+The implementation consists of multiple processing stages, beginning with questionnaire design and ending with management reporting.
+
+---
+
+## High-Level Architecture
+
+```text
+                MDI Framework
+                      │
+                      ▼
+        Questionnaire Development
+                      │
+                      ▼
+      Assessment Data Collection
+             (Porsline Survey)
+                      │
+                      ▼
+          Excel Response Dataset
+                      │
+                      ▼
+             Data Validation
+                      │
+                      ▼
+        Weighted Scoring Engine
+                      │
+                      ▼
+      ┌───────────────┼───────────────┐
+      ▼               ▼               ▼
+Capability       Organization      Similarity
+ Analysis       Level Analysis      Analysis
+      └───────────────┼───────────────┘
+                      ▼
+          Executive Power BI Dashboard
+                      │
+                      ▼
+         Executive Management Report
+                      │
+                      ▼
+        Data-Driven Management Decisions
+```
+
+---
+
+# System Components
+
+The system consists of seven analytical modules.
+
+| Module | Description |
+|----------|-------------|
+| Questionnaire | MDI assessment questionnaire |
+| Data Collection | Organizational responses collected through Porsline |
+| Scoring Engine | Automated weighted scoring using Excel formulas |
+| Analytical Engine | Capability, maturity level and similarity calculations |
+| Visualization | Interactive Power BI dashboard |
+| Reporting | Executive management report |
+| Decision Support | Prioritized improvement recommendations |
+
+---
+
+# Data Pipeline
+
+The project follows a structured data pipeline.
+
+```text
+Questionnaire
+      ↓
+Survey Responses
+      ↓
+Raw Excel Data
+      ↓
+Data Cleaning
+      ↓
+Weighted Calculations
+      ↓
+Capability Scores
+      ↓
+Organization Maturity
+      ↓
+Similarity Analysis
+      ↓
+Dashboard
+      ↓
+Management Report
+```
+
+---
+
+# Analytical Workflow
+
+The analytical engine performs the following sequence:
+
+### 1. Import Assessment Data
+
+Assessment responses are exported from the questionnaire platform and imported into the scoring engine.
+
+---
+
+### 2. Validate Data
+
+The system verifies:
+
+- Missing responses
+- Invalid values
+- Data consistency
+- Assessment completeness
+
+---
+
+### 3. Calculate Weighted Scores
+
+Each assessment indicator is processed according to the MDI scoring methodology.
+
+The engine automatically calculates weighted values required for maturity analysis.
+
+---
+
+### 4. Capability Analysis
+
+Individual capability scores are calculated to identify organizational strengths and weaknesses.
+
+Example capability dimensions include:
+
+- Leadership
+- Strategy
+- Customer Focus
+- Quality Management System
+- Continuous Improvement
+- Process Management
+- People Development
+- Organizational Culture
+- Quality Methods
+
+---
+
+### 5. Organization Level Analysis
+
+Overall organizational maturity is calculated using the aggregated capability scores.
+
+The result represents the organization's current maturity level.
+
+---
+
+### 6. Similarity Analysis
+
+The system compares the organization's assessment profile against the six maturity profiles defined by the MDI methodology.
+
+The closest maturity profile is identified using similarity scoring.
+
+---
+
+### 7. Executive Dashboard
+
+Processed analytical data is visualized using Power BI.
+
+The dashboard provides:
+
+- Overall Maturity
+- Capability Analysis
+- Similarity Score
+- Organizational Profile
+- Improvement Priorities
+
+---
+
+### 8. Executive Report
+
+The final stage produces an executive-level report designed to support management decision-making.
+
+The report summarizes:
+
+- Current maturity level
+- Organizational strengths
+- Capability gaps
+- Critical weaknesses
+- Recommended improvement priorities
+
+---
+
+# System Outputs
+
+The project produces multiple business outputs.
+
+| Output | Purpose |
+|---------|----------|
+| Executive Dashboard | Interactive management visualization |
+| Capability Analysis | Identify organizational strengths and weaknesses |
+| Organization Level | Overall maturity assessment |
+| Similarity Analysis | Compare against maturity profiles |
+| Management Report | Executive summary for decision-makers |
+| Improvement Priorities | Support strategic planning |
+
+---
+
+# Design Philosophy
+
+This project was designed with one objective:
+
+> **Transform assessment data into executive decisions.**
+
+Rather than producing static reports, the system creates actionable business intelligence that helps organizations understand where they are today and where improvement efforts should be focused first.
+
+---
+
+# End-to-End Workflow
+
+```text
+Scientific Framework
+        ↓
+Assessment
+        ↓
+Data
+        ↓
+Analysis
+        ↓
+Insight
+        ↓
+Decision
+        ↓
+Continuous Improvement
+```
 
