@@ -112,6 +112,12 @@ Instead of generating only survey results, the system transforms assessment resp
 
 The objective is not simply to measure quality maturity, but to support strategic decision-making using reliable organizational data.
 
+<p align="center">
+  <img src="image/mainroadmap00.png"
+       alt="MDI road map"
+       width="900">
+</p>
+*Figure 0. what is the main road map? .*
 ---
 
 # Scientific Foundation
@@ -1357,8 +1363,12 @@ Automated calculations for:
 - Organization Level
 - Similarity Analysis
 
-📷 *(Insert Screenshot)*
-
+📷 <p align="center">
+  <img src="image/answer sheet.png"
+       alt="MDI Assessment Questionnaire"
+       width="900">
+</p>
+*Figure 4. how I  evaluated the result in the excel? .*
 ---
 
 ## Executive Dashboard
