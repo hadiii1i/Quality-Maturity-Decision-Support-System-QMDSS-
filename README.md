@@ -1248,3 +1248,147 @@ The dashboard was designed according to the following principles:
 - Clear improvement priorities
 
 Every visual element exists to support management decisions rather than simply display data.
+# Sample Case Study
+
+## Background
+
+To demonstrate the implementation workflow, this repository includes an anonymized case study based on a real organizational assessment.
+
+The assessment was completed by a senior manager within a manufacturing organization using the Maturity Diagnostic Instrument (MDI).
+
+To preserve confidentiality:
+
+- Company name has been removed.
+- Participant identities have been anonymized.
+- Business-sensitive information has been excluded.
+
+The purpose of this case study is to demonstrate the analytical workflow rather than evaluate a specific organization.
+
+---
+
+# Assessment Workflow
+
+The implementation followed the complete QMDSS workflow.
+
+```text
+Assessment
+      ↓
+Questionnaire Completion
+      ↓
+Data Collection
+      ↓
+Excel Processing
+      ↓
+Weighted Scoring
+      ↓
+Capability Analysis
+      ↓
+Similarity Analysis
+      ↓
+Executive Dashboard
+      ↓
+Management Report
+```
+
+---
+
+# Assessment Dataset
+
+| Attribute | Value |
+|-----------|-------|
+| Assessment Method | Maturity Diagnostic Instrument (MDI) |
+| Number of Indicators | 84 |
+| Response Scale | 7-point Likert Scale |
+| Assessment Team | Multidisciplinary |
+| Data Collection | Porsline |
+| Data Processing | Microsoft Excel |
+| Dashboard | Microsoft Power BI |
+
+---
+
+# Example Outputs
+
+The demonstration project includes the following outputs.
+
+## Questionnaire
+
+An anonymized questionnaire completed by one of the participating managers.
+
+📷 *(Insert Screenshot)*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hadiii1i/Quality-Maturity-Decision-Support-System-QMDSS-/main/image/questioner.png"
+       alt="MDI Assessment Questionnaire"
+       width="900">
+</p>
+
+*Figure 1. Example of the online MDI assessment questionnaire (anonymized).*
+---
+
+## Exported Dataset
+
+Assessment responses exported from the survey platform.
+
+📷 *(Insert Screenshot)*
+
+---
+
+## Excel Scoring Engine
+
+Automated calculations for:
+
+- Weighted Scores
+- Capability Scores
+- Organization Level
+- Similarity Analysis
+
+📷 *(Insert Screenshot)*
+
+---
+
+## Executive Dashboard
+
+Interactive Power BI dashboard.
+
+📷 *(Insert Screenshot)*
+
+---
+
+## Executive Report
+
+Management-ready report summarizing:
+
+- Overall Maturity
+- Organizational Strengths
+- Capability Gaps
+- Executive Recommendations
+
+📷 *(Insert Screenshot)*
+
+---
+
+# Key Business Insights
+
+This implementation demonstrates how organizational assessment data can be transformed into meaningful executive insights.
+
+Instead of presenting raw survey responses, the system helps management answer questions such as:
+
+- Where are we today?
+- Which capability requires immediate attention?
+- Which maturity profile best represents our organization?
+- What should be improved first?
+
+These insights support evidence-based management decisions and continuous improvement planning.
+
+---
+
+# Confidentiality Statement
+
+The demonstration project is based on a real organizational assessment.
+
+To respect confidentiality and professional ethics:
+
+- Company information has been removed.
+- Personal identities have been anonymized.
+- No confidential operational information has been published.
+
+The sample project is intended solely to demonstrate the implementation methodology and analytical capabilities of QMDSS.
