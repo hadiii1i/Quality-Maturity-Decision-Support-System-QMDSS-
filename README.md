@@ -1375,8 +1375,12 @@ Automated calculations for:
 
 Interactive Power BI dashboard.
 
-📷 *(Insert Screenshot)*
-
+📷<p align="center">
+  <img src="image/DASHBOARDEND.png"
+       alt="MDI road map"
+       width="900">
+</p>
+*Figure 5. who I used Power Bi to resolve the main issue  .*
 ---
 
 ## Executive Report
