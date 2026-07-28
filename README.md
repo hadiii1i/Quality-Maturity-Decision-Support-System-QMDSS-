@@ -1321,7 +1321,7 @@ An anonymized questionnaire completed by one of the participating managers.
        width="900">
 </p>
 
-*Figure 1. Example of the  MDI assessment questionnaire in orginal form .*
+*Figure 1. the  MDI assessment questionnaire in orginal form .*
 
 <p align="center">
   <img src="https://github.com/hadiii1i/Quality-Maturity-Decision-Support-System-QMDSS-/blob/01546f7fb08e792721c2eb8e310863ea08c0daf2/image/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D9%87%20%D9%BE%D8%B1%D8%B3%D9%84%D8%A7%DB%8C%D9%86.png"
@@ -1331,14 +1331,20 @@ An anonymized questionnaire completed by one of the participating managers.
 
 [*Figure 2. Example of the online MDI assessment questionnaire in Persian.*](https://survey.porsline.ir/s/jRqffITz)
 
-*Figure 2. Example of the online MDI assessment questionnaire in Persian.*
+*Figure 2. the online MDI assessment questionnaire in Persian.*
 ---
 
 ## Exported Dataset
 
 Assessment responses exported from the survey platform.
 
-📷 *(Insert Screenshot)*
+📷 <p align="center">
+  <img src="image/answer sheet.png"
+       alt="MDI answer sheet"
+       width="900">
+</p>
+
+*Figure 3. how I prepare to calculate the result? .*
 
 ---
 
