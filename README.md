@@ -1314,14 +1314,24 @@ The demonstration project includes the following outputs.
 
 An anonymized questionnaire completed by one of the participating managers.
 
-📷 *(Insert Screenshot)*
+📷 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hadiii1i/Quality-Maturity-Decision-Support-System-QMDSS-/main/image/questioner.png"
        alt="MDI Assessment Questionnaire"
        width="900">
 </p>
 
-*Figure 1. Example of the online MDI assessment questionnaire (anonymized).*
+*Figure 1. Example of the  MDI assessment questionnaire in orginal form .*
+
+<p align="center">
+  <img src="https://github.com/hadiii1i/Quality-Maturity-Decision-Support-System-QMDSS-/blob/01546f7fb08e792721c2eb8e310863ea08c0daf2/image/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D9%87%20%D9%BE%D8%B1%D8%B3%D9%84%D8%A7%DB%8C%D9%86.png"
+       alt="MDI Assessment Questionnaire"
+       width="900">
+  </p>
+
+[*Figure 2. Example of the online MDI assessment questionnaire in Persian.*](https://survey.porsline.ir/s/jRqffITz)
+
+*Figure 2. Example of the online MDI assessment questionnaire in Persian.*
 ---
 
 ## Exported Dataset
